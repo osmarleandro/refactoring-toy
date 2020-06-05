@@ -1,5 +1,7 @@
 package pack_0.subpack0;
 
+import pack_0.subpack0.subsubpack_0.A;
+
 public class B {
 	A a1 = new A();
 	A a2 = new A();

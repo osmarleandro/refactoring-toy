@@ -1,4 +1,4 @@
-package pack_0.subpack0;
+package pack_0.subpack0.subsubpack_0;
 
 public class A {
 	private boolean isParameter;
