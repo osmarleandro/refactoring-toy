@@ -1,4 +1,6 @@
-package pack_0;
+package pack_0.subpack_1;
+
+import pack_0.subpack0.A;
 
 public class C {
 	A a1 = new A();

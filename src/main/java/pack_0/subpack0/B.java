@@ -1,4 +1,4 @@
-package pack_0;
+package pack_0.subpack0;
 
 public class B {
 	A a1 = new A();
