@@ -7,41 +7,40 @@ public class C {
 	A a2 = new A();
 
 	private void c() {
-		int counter = 0;
-		for (int i = 0; i < 100; i++) {
-			if(i % 2 == 0)
-				counter++;
-			else {
-				counter--;
-			}
-		}
-		for (int i = 0; i < 100; i++) {
-			if(i % 2 == 0)
-				counter++;
-			else {
-				counter--;
-			}
-		}
-		for (int i = 0; i < 100; i++) {
-			if(i % 2 == 0)
-				counter++;
-			else {
-				counter--;
-			}
-		}
+		int counter = d();
+		counter = f(counter);
 		for (int i = 0; i < 100; i++) {
 			if (a1 != null && a1.isParameter() && a2 != null && a2.isParameter() && counter != 0 && counter % 2 == 0)
 				counter = counter * 100;
 		}
-		
+		e();
+	}
+
+	private int f(int counter) {
+		for (int i = 0; i < 100; i++) {
+			if (i % 2 == 0)
+				counter++;
+			else {
+				counter--;
+			}
+		}
+		return counter;
+	}
+
+	private void e() {
 		int a = 1;
 		int b = 2;
-		int c = a*2 + b*3;
-		if(c > 10) {
-			a = b-c;
+		int c = a * 2 + b * 3;
+		if (c > 10) {
+			a = b - c;
+		} else {
+			b = a - c;
 		}
-		else {
-			b = a -c;
-		}
+	}
+
+	private int d() {
+		int counter = 0;
+		counter = f(counter);
+		return counter;
 	}
 }
