@@ -13,7 +13,7 @@ public class UMLOperationBodyMapper {
 		return nonMappedLeavesT1;
 	}
 
-	public List<StatementObject> getNonMappedLeavesT2() {
+	public List<StatementObject> getNonMappedLeavesT2_RENAMED() {
 		return nonMappedLeavesT2;
 	}
 
