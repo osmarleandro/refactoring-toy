@@ -20,7 +20,7 @@ public class InlineOperationRefactoring {
 			ranges.add(statement.codeRange());
 		}
 		for (CompositeStatementObject statement : bodyMapper.getNonMappedInnerNodesT1()) {
-			ranges.add(statement.codeRange());
+			ranges.add(statement.codeRange_RENAMED());
 		}
 		return ranges;
 	}
