@@ -21,7 +21,7 @@ public class UMLOperationBodyMapper {
 		return nonMappedInnerNodesT1;
 	}
 
-	public List<CompositeStatementObject> getNonMappedInnerNodesT2() {
+	public List<CompositeStatementObject> getNonMappedInnerNodesT2_RENAMED() {
 		return nonMappedInnerNodesT2;
 	}
 }
