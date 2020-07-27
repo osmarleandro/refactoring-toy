@@ -19,7 +19,7 @@ public class InlineOperationRefactoring {
 		for (StatementObject statement : bodyMapper.getNonMappedLeavesT1()) {
 			ranges.add(statement.codeRange());
 		}
-		for (CompositeStatementObject statement : bodyMapper.getNonMappedInnerNodesT1()) {
+		for (CompositeStatementObject statement : bodyMapper.getNonMappedInnerNodesT1_RENAMED()) {
 			ranges.add(statement.codeRange());
 		}
 		return ranges;
