@@ -11,7 +11,7 @@ public class InlineOperationRefactoring {
 		this.bodyMapper = bodyMapper;
 	}
 
-	public List leftSide() {
+	public List leftSide_RENAMED() {
 		List<AbstractStatement> ranges = new ArrayList<AbstractStatement>();
 		for (AbstractStatement abstractStatement : ranges) {
 			System.out.println(abstractStatement);
