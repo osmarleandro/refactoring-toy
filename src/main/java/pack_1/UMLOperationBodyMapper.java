@@ -9,7 +9,7 @@ public class UMLOperationBodyMapper {
 	private List<CompositeStatementObject> nonMappedInnerNodesT1;
 	private List<CompositeStatementObject> nonMappedInnerNodesT2;
 
-	public List<StatementObject> getNonMappedLeavesT1() {
+	public List<StatementObject> getNonMappedLeavesT1_RENAMED() {
 		return nonMappedLeavesT1;
 	}
 
